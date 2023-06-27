@@ -1,6 +1,4 @@
-
 package com.example.homestay;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -63,8 +61,17 @@ public class LoginActivity extends AppCompatActivity {
                     ParseUser.logInInBackground(emailEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
                         @Override
                         public void done(ParseUser user, ParseException e) {
+
                             if (e==null){
-                                showAlert("Login Successful","Your email is verified successfully",false);
+                                int user_owner = user.getInt("user");
+                                if (user_owner == 0){ // check if the value is equal to 1 (or any other value that indicates verification)
+                                    showAlert("Login Successful","Your email is verified successfully",false);
+                                } else {
+                                    showAlert("Login failed","Your not a owner go to tousist login",true);
+                                }
+
+
+                                //showAlert("Login Successful","Your email is verified successfully",false);
                             }else {
                                 showAlert("Login failed",e.getMessage(),true);
                             }

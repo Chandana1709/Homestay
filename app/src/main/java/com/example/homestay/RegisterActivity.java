@@ -51,6 +51,7 @@ public class RegisterActivity extends AppCompatActivity {
                     user.setUsername(usernameEditText.getText().toString());
                     user.setEmail(emailEditText.getText().toString());
                     user.setPassword(passwordEditText.getText().toString());
+                    user.put("user",0);
                     user.signUpInBackground(new SignUpCallback() {
                         @Override
                         public void done(ParseException e) {
