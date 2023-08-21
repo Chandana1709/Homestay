@@ -1,4 +1,5 @@
 # Homestay
+
 The homestay booking app is a mobile application that allows tourists to search and book accommodations in private homes, apartments, or other non-traditional lodging options. The
 app aims to provide a user-friendly platform that allows tourists to find unique and affordable accommodations that suit their preferences and budget.
 
