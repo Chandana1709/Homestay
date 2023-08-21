@@ -1,10 +1,6 @@
 # Homestay
 
-The homestay booking app is a mobile application that allows tourists to search and book accommodations in private homes, apartments, or other non-traditional lodging options. The
-app aims to provide a user-friendly platform that allows tourists to find unique and affordable accommodations that suit their preferences and budget.
-
-The software system will be a standalone application. The app should be easy to navigate and use for both guests and owners. It should have a simple and intuitive design that allows users
-to quickly find what they need. The app should allow hosts to manage their listings, including availability, pricing and booking requests. Guests should be able to search for and book
+>The homestay booking app is a mobile application that allows tourists to search and book accommodations in private homes, apartments, or other non-traditional lodging options. The app aims to provide a user-friendly platform that allows tourists to find unique and affordable accommodations that suit their preferences and budget.The software system will be a standalone application. The app should be easy to navigate and use for both guests and owners. It should have a simple and intuitive design that allows users to quickly find what they need. The app should allow hosts to manage their listings, including availability, pricing and booking requests. Guests should be able to search for and book
 homestays, and receive confirmation and payment details
 
 
@@ -24,10 +20,9 @@ homestays, and receive confirmation and payment details
   
 - Secure payment options: The app should offer secure payment options to ensure that guests' payments are protected and hosts receive their payments on time
   
-## Language Used
+## Tools and Technologies Used
 
-MySQL,React.js,Node.js, and Express.js. 
-
+Back4app Cloud Storage,Java and XML 
 
 ## Screenshots
 
